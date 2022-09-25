@@ -75,7 +75,7 @@ input:hover{
 
 #res-box{
     font-size: 15pt;
-    width: 75%;
+    width: 250px;
     height: 45px;
     margin: auto;
     
@@ -89,5 +89,6 @@ input:hover{
     border: 1px solid black;
     padding: 10px;
     color: white;
+    width: 250px;
     box-shadow: 0.2px 1px 3px black;
 }
