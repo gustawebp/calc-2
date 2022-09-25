@@ -19,6 +19,7 @@ function c2() {
    let res = document.getElementById('res')
     let res2 = i1 + i2
     res.innerHTML = `${res2}`
+    res.classList.add("res-box")
 
 }
 
@@ -32,6 +33,7 @@ function c3() {
    let res = document.getElementById('res')
     let res2 = i1 - i2
     res.innerHTML = `${res2}`
+    res.classList.add("res-box")
 
 }
 
@@ -45,6 +47,7 @@ function c4() {
    let res = document.getElementById('res')
     let res2 = i1 / i2
     res.innerHTML = `${res2}`
+    res.classList.add("res-box")
 
 }
 

@@ -16,10 +16,12 @@
     
         <div class="calc">
             <input 
-            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" id="i1" type="number"> <br> <br>
+            maxlength="4"
+            oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" id="i1" type="text"> <br> <br>
             <input
+            maxlength="4"
             oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
-             id="i2" type="number">
+             id="i2" type="text">
               <br> <br><br> 
             <button onclick="c1()">X</button> 
             <button onclick="c2()">+</button> <br>
