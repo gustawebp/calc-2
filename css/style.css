@@ -1,0 +1,93 @@
+body{
+    background-color: rgba(68, 65, 65, 0.226);
+    font-family: 'Inter Tight', sans-serif;
+    background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(44, 0, 0));
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+.calc{
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+
+}
+
+button{
+    width: 75px;
+    height: 75px;
+    font-size: 20pt;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    padding: 1px;
+    margin: auto;
+    text-align: center;
+    border-radius: 350px;
+    text-align: center;
+    color: white;
+    box-shadow: 0.5px 0.5px 5px rgb(255, 255, 255);
+
+
+}
+
+button:hover{
+    font-size: 21pt;
+    color: black;
+    background-color: white;
+}
+
+input{
+    width: 170px;
+    height: 30px;
+    box-shadow: 0.5px 0.5px 5px rgba(255, 255, 255, 0.562);
+    background-color: rgba(0, 0, 0, 0.171);
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+
+}
+
+
+input:hover{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.295);
+}
+#res {
+
+    font-weight: bold;
+}
+
+#res-box{
+    font-size: 15pt;
+    width: 75px;
+    height: 45px;
+    margin: auto;
+    
+
+
+
+
+}
+
+.res-box{
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    box-shadow: 0.2px 1px 3px black;
+}
